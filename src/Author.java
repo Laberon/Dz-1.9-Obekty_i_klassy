@@ -7,8 +7,8 @@ public class Author {
         this.secondName = secondName;
     }
 
-    public String getAutors(){
-        String autors = (firstName +" "+ secondName);
-        return autors;
+    public String getAuthors(){
+        String author = (firstName +" "+ secondName);
+        return author;
     }
 }

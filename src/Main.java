@@ -4,8 +4,8 @@ public class Main {
         Author gillian = new Author("Gillian", "Flynn");
         Book gulliver = new Book("Gulliver's Travels", 2009, new Author("Jonatan", "Swift"));
         Author jonatan = new Author("Jonatan", "Swift");
-        System.out.println("sharpObject = " + sharpObject.getTitel()+", "+sharpObject.getPublishingYear()+", "+gillian.getAutors());
-        System.out.println("gullive = " + gulliver.getTitel() + ", " + gulliver.getPublishingYear() + ", " + jonatan.getAutors());
+        System.out.println("sharpObject = " + sharpObject.getTitel()+", "+sharpObject.getPublishingYear()+", "+gillian.getAuthors());
+        System.out.println("gullive = " + gulliver.getTitel() + ", " + gulliver.getPublishingYear() + ", " + jonatan.getAuthors());
         gulliver.setPublishingYear(2010);
         System.out.println("gulliver = " + gulliver.getPublishingYear());
     }
